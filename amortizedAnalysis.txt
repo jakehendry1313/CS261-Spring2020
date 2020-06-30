@@ -1,0 +1,12 @@
+# Author: Jacob Hendry
+# Date: 04/21/2020
+# Description: This is a text file that will answer two questions about Amortized Analysis.
+
+1. For 50 consecutive push with doubling capacity, the total units would be 8 + 16 + 32 + 50 = 106 cost units are spent
+As the for resizing, it goes from 1 + 2 + 4 + 8 and so on... which is 2*k. On average it would be
+2k/k = 2. This would be a Big O(1).
+
+2. For 50 consecutive push with a growth of 2 constant spaces, the total units would be 8 + 10 + 12 +
+14 + 16...21 times. This comes to a total of 319 cost units are spent. 
+As for the resizing, it goes a slow rate of adding 2 and up (2 + 4 + 6...) this being said it would give a sum
+of 2*n*(n+1)/2 this would be an average of Big O(n). 
