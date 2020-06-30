@@ -1,0 +1,5 @@
+C:\Users\b_bal\AppData\Local\Programs\Python\Python38-32\python.exe C:/Users/b_bal/PycharmProjects/greeting/greeting.py
+This an acceptable version of Python, version 3.8.
+Numpy is installed, you are good to go here!
+
+Process finished with exit code 0
